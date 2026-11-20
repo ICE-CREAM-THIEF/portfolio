@@ -1,0 +1,8 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: clip;
+}
+
+section {
+  scroll-margin-top: 70px; /* Stops the sticky navbar from covering the top of the section */
+}

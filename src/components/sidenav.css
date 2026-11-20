@@ -1,0 +1,35 @@
+.sidenav {
+  position: fixed;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+  width: fit-content;
+  border-radius: 10px;
+  border: 2px solid black;
+  background: white;
+  padding: 8px;
+}
+
+.sidenav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.sidenav a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 8px 14px;
+  border-radius: 6px;
+}
+
+.sidenav a:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.06);
+}
